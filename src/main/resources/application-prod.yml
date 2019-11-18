@@ -1,0 +1,8 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /linwe
+limit:
+  minMoney: 2
+  maxMoney: 999
+  description: 最少要发${limit.minMoney}元,最多发${limit.maxMoney}元
